@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Question_Answer_Forum</string>
     <string name="forgotPassword">Forgot Password</string>
+    <string-array name="port_options">
+        <item>Your Questions</item>
+        <item>Watched Question</item>
+        <item>Popular in Favorites</item>
+        <item>What\'s Trending</item>
+        <item>Metrics</item>
+        <item>Account Settings</item>
+        <item>Log Out</item>
+    </string-array>
 </resources>
