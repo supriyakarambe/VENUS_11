@@ -75,7 +75,8 @@ tools:context="com.example.rahul.question_answer_forum.LoginPage">
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="48dp"
-        android:text="new user"/>
+        android:text="new user"
+        android:onClick="gotoRegistration"/>
 
     <Button
         android:id="@+id/btn_forgot"

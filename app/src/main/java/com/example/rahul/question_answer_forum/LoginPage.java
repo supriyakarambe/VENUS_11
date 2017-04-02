@@ -37,12 +37,6 @@ public class LoginPage extends AppCompatActivity {
             }
         });
 
-        btnRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(LoginPage.this, "Register", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         btnForgot.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,5 +45,10 @@ public class LoginPage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void gotoRegistration(View view) {
+        Intent intent = new Intent(LoginPage.this, Registration.class);
+        startActivity(intent);
     }
 }
